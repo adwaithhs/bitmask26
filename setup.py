@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="bitmask26",
-    version="0.1.0",
+    version="0.1.1",
     author="Adwaith H Sivam",
     author_email="adwaithhs@gmail.com",
     description="A C++ optimized bitmask implementation with Python bindings",
