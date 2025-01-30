@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="bitmask26",
-    version="0.1.1",
+    version="0.2.0",
     author="Adwaith H Sivam",
     author_email="adwaithhs@gmail.com",
     description="A C++ optimized bitmask implementation with Python bindings",
@@ -17,6 +17,9 @@ setup(
             ["bitmask26.cpp"],
         ),
     ],
+    py_modules=["py_bitmask26"],
+    package_data={"": ["bitmask26.pyi"]},
+    include_package_data=True,
     cmdclass={"build_ext": build_ext},
     zip_safe=False,
     python_requires=">=3.8",

@@ -23,5 +23,6 @@ Bitmask26('fell') <= Bitmask26('eefl') # True
 ```bash
 pip install setuptools wheel twine pybind11
 rm -rf build dist *.egg-info
-python setup.py .
+python setup.py sdist
+pip install .
 ```

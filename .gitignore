@@ -35,3 +35,6 @@ ENV/
 
 # vs code
 .vscode
+
+# mypy
+.mypy_cache
